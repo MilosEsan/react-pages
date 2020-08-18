@@ -1,0 +1,208 @@
+
+
+.Login {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FBFBFB;
+}
+
+.login_page {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #FBFBFB;
+    background-image: url(background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+  }
+    
+  .login-title {
+    margin-top: 1%;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    color: #222222;
+  }
+  
+  .App-logo {
+    margin-top: 2%;
+    width: 20%;
+    max-width: 150px;
+    height: 35%;
+  }
+  
+  .login-section {
+    overflow: auto;
+    text-align: center;
+    position: fixed;
+    display: flexbox;
+    min-width: 40%;
+    max-height: 90%;
+    left: 54%;
+    right: 50%;
+    top: 5%;
+    bottom: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+  }
+  
+  input:focus::placeholder {
+    color: transparent;
+  }
+  
+  .inp-1::placeholder,
+  .inp-2::placeholder {
+    vertical-align: 1cm;
+    display: inline-block;
+    font-family: Roboto Condensed, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  
+  .inp-1 {
+    margin-top: 65.5px;
+    width: 60%;
+    height: 8%;
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .inp-2 {
+    width: 60%;
+    height: 8%;
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .App-link {
+    color: black;
+  }
+  
+  .btn-1 {
+    font-size: 15px;
+    border: 0ch;
+    font-weight: bold;
+    margin-top: 69px;
+    width: 40%;
+    height: 60px;
+    background: #B07E09;
+    font-family: Roboto Condensed, sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .btn-1:hover {
+    background-color: #222222;
+  }
+  
+  label a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 0%;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: Roboto Condensed, sans-serif;
+    color: #B07E09;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+    vertical-align: sub;
+  }
+  
+  ::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+    vertical-align: sub;
+  }
+  
+  :-ms-input-placeholder {  
+    text-align: center; 
+  }
+  
+  .link-2 {
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 10%;
+    font-family: Roboto Condensed, sans-serif;
+    color: #B07E09;
+  }
+  
+  @media (max-width: 300px), (max-width: 400px) {
+
+    .login-title {
+      font-size: 20px;
+    }
+  
+    .login_page {
+      background-size: 100% 60%;
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      padding: 20%;
+    }
+ 
+    .login-section {
+      overflow: auto;
+      text-align: center;
+      position: fixed;
+      display: flexbox;
+      width: 70%;
+      max-height: 90%;
+      left: 16.5% !important;
+      right: 50%;
+      top: 5%;
+      bottom: 5%;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    }
+    .App-logo {
+      width: 30%;
+      margin-top: 10%;
+    }
+  }
+
+
+@media(max-width: 402px), (max-width: 570px) {
+
+  .login-title {
+    font-size: 27px;
+  }
+
+  .App-logo {
+    width: 30%;
+    margin-top: 10%;
+  }
+
+
+  .login-section {
+    overflow: auto;
+    text-align: center;
+    position: fixed;
+    display: flexbox;
+    width: 70%;
+    max-height: 90%;
+    left: 22%;
+    right: 35%;
+    top: 5%;
+    bottom: 5%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+  }
+}
